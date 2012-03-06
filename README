@@ -7,7 +7,7 @@ HWB to light the other LED.
 Compiling
 ---------
 
-To compile, first choose your CPU in the README, then::
+To compile, first choose your CPU in the Makefile, then::
 
   $ make upload
 
