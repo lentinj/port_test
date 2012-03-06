@@ -1,9 +1,9 @@
 CPU=at90usb162 # Target is a Minimus
 #CPU=atmega32u2 # Target is a Minimus 32
-CC=/usr/bin/avr-gcc
+CC=avr-gcc
 CFLAGS=-g -Os -Wall -mcall-prologues -mmcu=$(CPU)
-OBJ2HEX=/usr/bin/avr-objcopy 
-DFU=/usr/bin/dfu-programmer
+OBJ2HEX=avr-objcopy
+DFU=dfu-programmer
 TARGET=port_test
 
 upload : hex
