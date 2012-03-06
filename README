@@ -1,0 +1,19 @@
+Minimus Port Test
+=================
+
+A small application to show using a Minimus. One LED should be lit, hold down
+HWB to light the other LED.
+
+Compiling
+---------
+
+To compile, first choose your CPU in the README, then::
+
+  $ make upload
+
+should build the hex file and upload to a connected device.
+
+More Information
+----------------
+
+Try reading: http://jamie.lentin.co.uk/embedded/minimus/
