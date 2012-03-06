@@ -11,7 +11,8 @@ To compile, first choose your CPU in the README, then::
 
   $ make upload
 
-should build the hex file and upload to a connected device.
+should build the hex file and upload to a connected device. Alternatively, try
+make hex to just build the hex file.
 
 More Information
 ----------------
